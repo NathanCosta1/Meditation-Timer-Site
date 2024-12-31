@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Light Gray background */
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.timer-display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+.controls input[type="number"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 100px;
+}
+.controls input[type="number"]:focus{
+    border-color: #4caf50; /* A light green when focussed on */
+}
+.controls button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #367c39;
+}
+.controls button:disabled {
+    background-color: #989898;
+    cursor: not-allowed;
+}
+.session-history {
+    text-align: left;
+}
+.session-history h2 {
+    margin-bottom: 10px;
+}
+.session-history ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.session-history li {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+.session-history li:last-child {
+    border-bottom: none;
+}
+
+.auth-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.auth-form {
+    display: flex; /* Change from none to flex */
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.auth-form input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}

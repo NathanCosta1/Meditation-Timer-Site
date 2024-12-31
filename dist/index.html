@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation Timer</title>
+    <link rel="stylesheet" href="/index.1303bb05.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meditation Timer</h1>
+
+        <div class="timer-display">
+            <span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+
+        <div class="controls">
+            <input type="number" id="duration" placeholder="Enter minutes" min="1">
+            <button id="startBtn">Start</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="endBtn" disabled="">End Now</button>
+            <button id="quitBtn" disabled="">Quit</button>
+             <button id="testSoundBtn">Test Sound</button>
+        </div>
+
+         <div class="session-history">
+            <h2 id="history-title">Sign In To See History</h2>
+            <ul id="historyList"></ul>
+         </div>
+            <form id="auth-form">
+                <input type="email" id="email" placeholder="Enter Email" required="">
+                <input type="password" id="password" placeholder="Enter password" required="">
+                <div class="auth-buttons">
+                   <button id="signInBtn">Sign In</button>
+                    <button id="signUpBtn">Sign Up</button>
+               </div>
+            </form>
+         <button id="logoutBtn" style="display: none">Logout</button>
+    </div>
+        <audio id="timerSound" src="/timer.f9eae9b8.mp3"></audio>
+    <script src="/index.8cfc62b9.js" defer=""></script>
+</body>
+</html>
