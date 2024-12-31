@@ -1,10 +1,10 @@
-5007
+5000
 60C:\Users\82nat\STUFF\Meditation-Timer\node_modules\env-paths133800650904680804 1
 107C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@supabase\postgrest-js\dist\cjs\PostgrestQueryBuilder.js133800635160667964 0
 85C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@types\node\readline\promises.d.ts133800635161047972 0
-50C:\Users\82nat\STUFF\Meditation-Timer\package.json133801274694993241 0
+50C:\Users\82nat\STUFF\Meditation-Timer\package.json133801277533880784 0
 65C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\plugin133800650912926378 1
-42C:\Users\82nat\STUFF\Meditation-Timer\dist133801266886530579 1
+42C:\Users\82nat\STUFF\Meditation-Timer\dist133801427333433468 1
 89C:\Users\82nat\STUFF\Meditation-Timer\node_modules\caniuse-lite\data\features\css-sel3.js133800650908271119 0
 114C:\Users\82nat\STUFF\Meditation-Timer\node_modules\posthtml\node_modules\entities\lib\generated\decode-data-xml.js133800650921325213 0
 105C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\rust\parcel-node-bindings.linux-arm64-gnu.node133800650962607754 0
@@ -27,7 +27,7 @@
 84C:\Users\82nat\STUFF\Meditation-Timer\node_modules\caniuse-lite\data\features\ime.js133800650910426325 0
 48C:\Users\82nat\STUFF\Meditation-Timer\.gitignore133801263048852300 0
 100C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@supabase\auth-js\dist\module\AuthClient.d.ts.map133800635161277978 0
-48C:\Users\82nat\STUFF\Meditation-Timer\index.html133801262105033577 0
+48C:\Users\82nat\STUFF\Meditation-Timer\index.html133801426580241201 0
 100C:\Users\82nat\STUFF\Meditation-Timer\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\module.h133800650911898331 0
 100C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-web133800650915644928 1
 94C:\Users\82nat\STUFF\Meditation-Timer\node_modules\caniuse-lite\data\features\css-boxshadow.js133800650907338985 0
@@ -77,7 +77,6 @@
 95C:\Users\82nat\STUFF\Meditation-Timer\node_modules\caniuse-lite\data\features\rel-noreferrer.js133800650913450419 0
 67C:\Users\82nat\STUFF\Meditation-Timer\node_modules\srcset\readme.md133800650904650804 0
 64C:\Users\82nat\STUFF\Meditation-Timer\node_modules\picomatch\lib133800650903642761 1
-65C:\Users\82nat\STUFF\Meditation-Timer\dist\index.1303bb05.css.map133800724393572124 0
 70C:\Users\82nat\STUFF\Meditation-Timer\node_modules\js-tokens\README.md133800650903421720 0
 91C:\Users\82nat\STUFF\Meditation-Timer\node_modules\posthtml\node_modules\entities\readme.md133800650921515227 0
 69C:\Users\82nat\STUFF\Meditation-Timer\node_modules\lmdb\dict\dict.txt133800650912433443 0
@@ -114,7 +113,7 @@
 60C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@mischnic133800650900653520 1
 82C:\Users\82nat\STUFF\Meditation-Timer\node_modules\caniuse-lite\data\regions\PG.js133800650913027794 0
 57C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@babel133800650900723504 1
-66C:\Users\82nat\STUFF\Meditation-Timer\dist\browser.c61c01ea.js.map133801260963534013 0
+66C:\Users\82nat\STUFF\Meditation-Timer\dist\browser.c61c01ea.js.map133801427333419612 0
 82C:\Users\82nat\STUFF\Meditation-Timer\node_modules\caniuse-lite\data\regions\FR.js133800650909716564 0
 71C:\Users\82nat\STUFF\Meditation-Timer\node_modules\electron-to-chromium133800650905449969 1
 83C:\Users\82nat\STUFF\Meditation-Timer\node_modules\update-browserslist-db\README.md133800650905235782 0
@@ -2229,7 +2228,6 @@
 106C:\Users\82nat\STUFF\Meditation-Timer\node_modules\caniuse-lite\data\features\document-scrollingelement.js133800650908903898 0
 82C:\Users\82nat\STUFF\Meditation-Timer\node_modules\caniuse-lite\data\regions\KN.js133800650911331769 0
 75C:\Users\82nat\STUFF\Meditation-Timer\node_modules\htmlparser2\package.json133800650903766300 0
-61C:\Users\82nat\STUFF\Meditation-Timer\dist\index.1303bb05.css133800724393562129 0
 68C:\Users\82nat\STUFF\Meditation-Timer\node_modules\caniuse-lite\data133800650909193904 1
 103C:\Users\82nat\STUFF\Meditation-Timer\node_modules\caniuse-lite\data\features\css-media-range-syntax.js133800650907883398 0
 82C:\Users\82nat\STUFF\Meditation-Timer\node_modules\caniuse-lite\data\regions\GM.js133800650909896565 0
@@ -3702,7 +3700,6 @@
 101C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@swc\helpers\_\_sliced_to_array_loose\package.json133800650911988339 0
 95C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@swc\helpers\_\_sliced_to_array\package.json133800650911998324 0
 104C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@supabase\postgrest-js\dist\cjs\PostgrestBuilder.d.ts133800635161447973 0
-64C:\Users\82nat\STUFF\Meditation-Timer\dist\index.8cfc62b9.js.map133800772673321065 0
 105C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@swc\helpers\_\_skip_first_generator_next\package.json133800650911978332 0
 95C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@swc\helpers\_\_read_only_error\package.json133800650911918340 0
 107C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@swc\helpers\_\_possible_constructor_return\package.json133800650911898331 0
@@ -4700,7 +4697,6 @@
 82C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\optimizer-image\LICENSE133800650917026927 0
 87C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\optimizer-image\package.json133800650917046921 0
 96C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\optimizer-image\lib\ImageOptimizer.js133800650917036924 0
-66C:\Users\82nat\STUFF\Meditation-Timer\dist\browser.7ada82ab.js.map133800724393329832 0
 81C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\optimizer-htmlnano\lib133800650917401150 1
 85C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\optimizer-htmlnano\LICENSE133800650917316922 0
 90C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\optimizer-htmlnano\package.json133800650917431169 0
@@ -4841,7 +4837,7 @@
 113C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\core\test\fixtures\custom-format-mismatch\package.json133800650922658815 0
 115C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\core\test\fixtures\custom-format-infer-type\package.json133800650922648824 0
 114C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\core\test\fixtures\custom-format-infer-ext\package.json133800650922638817 0
-53C:\Users\82nat\STUFF\Meditation-Timer\dist\index.html133801266886530579 0
+53C:\Users\82nat\STUFF\Meditation-Timer\dist\index.html133801427333285272 0
 98C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\core\test\fixtures\context\package.json133800650922618810 0
 108C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\core\test\fixtures\config-node-pipeline\.parcelrc133800650920423195 0
 112C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc133800650920363209 0
@@ -4997,12 +4993,9 @@
 62C:\Users\82nat\STUFF\Meditation-Timer\node_modules\.bin\semver133800650995240007 0
 66C:\Users\82nat\STUFF\Meditation-Timer\node_modules\.bin\semver.ps1133800650995240007 0
 82C:\Users\82nat\STUFF\Meditation-Timer\node_modules\.bin\update-browserslist-db.ps1133800650995250004 0
-62C:\Users\82nat\STUFF\Meditation-Timer\dist\browser.7ada82ab.js133800724393229822 0
-62C:\Users\82nat\STUFF\Meditation-Timer\dist\browser.c61c01ea.js133801260963473958 0
-60C:\Users\82nat\STUFF\Meditation-Timer\dist\index.8cfc62b9.js133800772673301075 0
-61C:\Users\82nat\STUFF\Meditation-Timer\dist\index.8f94ffd6.css133801260963473958 0
-65C:\Users\82nat\STUFF\Meditation-Timer\dist\index.8f94ffd6.css.map133801260963534013 0
-60C:\Users\82nat\STUFF\Meditation-Timer\dist\index.9cada2a0.js133801260963473958 0
-64C:\Users\82nat\STUFF\Meditation-Timer\dist\index.9cada2a0.js.map133801260963534013 0
-61C:\Users\82nat\STUFF\Meditation-Timer\dist\timer.d09ee0d3.mp3133801260961666886 0
-61C:\Users\82nat\STUFF\Meditation-Timer\dist\timer.f9eae9b8.mp3133800724393409809 0
+62C:\Users\82nat\STUFF\Meditation-Timer\dist\browser.c61c01ea.js133801427333329587 0
+61C:\Users\82nat\STUFF\Meditation-Timer\dist\index.8f94ffd6.css133801427333319580 0
+65C:\Users\82nat\STUFF\Meditation-Timer\dist\index.8f94ffd6.css.map133801427333359587 0
+60C:\Users\82nat\STUFF\Meditation-Timer\dist\index.9cada2a0.js133801427333329587 0
+64C:\Users\82nat\STUFF\Meditation-Timer\dist\index.9cada2a0.js.map133801427333433468 0
+61C:\Users\82nat\STUFF\Meditation-Timer\dist\timer.d09ee0d3.mp3133801427332253106 0
