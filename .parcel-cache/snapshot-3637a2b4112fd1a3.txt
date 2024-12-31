@@ -2,7 +2,7 @@
 60C:\Users\82nat\STUFF\Meditation-Timer\node_modules\env-paths133800650904680804 1
 107C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@supabase\postgrest-js\dist\cjs\PostgrestQueryBuilder.js133800635160667964 0
 85C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@types\node\readline\promises.d.ts133800635161047972 0
-50C:\Users\82nat\STUFF\Meditation-Timer\package.json133801266663765010 0
+50C:\Users\82nat\STUFF\Meditation-Timer\package.json133801274694993241 0
 65C:\Users\82nat\STUFF\Meditation-Timer\node_modules\@parcel\plugin133800650912926378 1
 42C:\Users\82nat\STUFF\Meditation-Timer\dist133801266886530579 1
 89C:\Users\82nat\STUFF\Meditation-Timer\node_modules\caniuse-lite\data\features\css-sel3.js133800650908271119 0
