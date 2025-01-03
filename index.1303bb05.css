@@ -27,7 +27,11 @@ h1 {
 }
 
 .controls {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 20px;
+  display: flex;
 }
 
 .controls input[type="number"] {
@@ -60,6 +64,51 @@ h1 {
 .controls button:disabled {
   cursor: not-allowed;
   background-color: #989898;
+}
+
+.settings {
+  position: relative;
+}
+
+#settingsBtn {
+  cursor: pointer;
+  color: #777;
+  background: none;
+  border: none;
+  font-size: 1.2em;
+}
+
+#settingsBtn:hover {
+  color: #333;
+}
+
+.dropdown-content {
+  z-index: 1;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  min-width: 160px;
+  padding: 10px 0;
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  box-shadow: 0 8px 16px #0003;
+}
+
+.dropdown-content button {
+  text-align: left;
+  cursor: pointer;
+  color: #333;
+  background-color: #0000;
+  border: none;
+  width: 100%;
+  padding: 10px 15px;
+  transition: background-color .3s;
+  display: block;
+}
+
+.dropdown-content button:hover {
+  background-color: #ddd;
 }
 
 .session-history {

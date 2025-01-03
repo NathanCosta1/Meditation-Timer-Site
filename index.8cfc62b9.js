@@ -617,6 +617,8 @@ const signInButton = document.getElementById('signInBtn');
 const signUpButton = document.getElementById('signUpBtn');
 const logoutButton = document.getElementById('logoutBtn');
 const historyTitle = document.getElementById('history-title');
+const settingsBtn = document.getElementById('settingsBtn');
+const settingsDropdown = document.getElementById('settingsDropdown');
 let timerInterval;
 let timeLeft;
 let startTime;
@@ -778,7 +780,6 @@ function playTimerSound() {
 startButton.addEventListener('click', startTimer);
 endButton.addEventListener('click', stopTimer);
 quitButton.addEventListener('click', resetTimer);
-testButton.addEventListener('click', playTimerSound);
 pauseButton.addEventListener('click', pauseTimer);
 // Supabase Auth Event Listeners
 signInButton.addEventListener('click', async (e)=>{
@@ -827,6 +828,18 @@ document.addEventListener('visibilitychange', async ()=>{
         await fetchAndDisplayHistory();
     }
 });
+// Settings button functionality
+settingsBtn.addEventListener('click', ()=>{
+    settingsDropdown.style.display = settingsDropdown.style.display === 'block' ? 'none' : 'block';
+});
+// Close the dropdown if the user clicks outside of it
+window.addEventListener('click', (event)=>{
+    if (!event.target.matches('#settingsBtn')) {
+        if (settingsDropdown.style.display === 'block') settingsDropdown.style.display = 'none';
+    }
+});
+// Event listener for the Test Sound button (now in the dropdown)
+testButton.addEventListener('click', playTimerSound);
 // Check if user is already signed in, on page load
 checkIfUserLoggedIn();
 
