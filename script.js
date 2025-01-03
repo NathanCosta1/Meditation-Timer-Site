@@ -13,7 +13,7 @@ const endButton = document.getElementById('endBtn');
 const quitButton = document.getElementById('quitBtn');
 const historyList = document.getElementById('historyList');
 const timerSound = document.getElementById('timerSound');
-const testButton = document.getElementById('testSoundBtn');
+const testButton = document.getElementById('testSoundBtn'); 
 const authForm = document.getElementById('auth-form');
 const emailInput = document.getElementById('email');
 const passwordInput = document.getElementById('password');
@@ -21,6 +21,8 @@ const signInButton = document.getElementById('signInBtn');
 const signUpButton = document.getElementById('signUpBtn');
 const logoutButton = document.getElementById('logoutBtn');
 const historyTitle = document.getElementById('history-title');
+const settingsBtn = document.getElementById('settingsBtn'); 
+const settingsDropdown = document.getElementById('settingsDropdown'); 
 
 let timerInterval;
 let timeLeft;
@@ -161,7 +163,7 @@ function resetTimer(){
 
 //Function to add session to db
 async function addSessionToDatabase(duration) {
-    console.log("addSessionToDatabase called with duration:", duration); 
+    console.log("addSessionToDatabase called with duration:", duration);
     if (userId) {
         const sessionData = [{ user_id: userId, start_time: startTime, duration: duration }];
         console.log("Attempting to insert:", sessionData);
@@ -204,8 +206,7 @@ function playTimerSound() {
 startButton.addEventListener('click', startTimer);
 endButton.addEventListener('click', stopTimer);
 quitButton.addEventListener('click', resetTimer);
-testButton.addEventListener('click', playTimerSound);
-pauseButton.addEventListener('click', pauseTimer)
+pauseButton.addEventListener('click', pauseTimer);
 
 // Supabase Auth Event Listeners
 signInButton.addEventListener('click', async (e) => {
@@ -216,7 +217,7 @@ signInButton.addEventListener('click', async (e) => {
         password: passwordInput.value
     });
     if(error){
-        console.error("Error Signing In", error); 
+        console.error("Error Signing In", error);
         alert("Error Signing In");
     } else {
         console.log("Sign in successful", data);
@@ -259,6 +260,23 @@ document.addEventListener('visibilitychange', async () => {
         await fetchAndDisplayHistory();
     }
 });
+
+// Settings button functionality
+settingsBtn.addEventListener('click', () => {
+    settingsDropdown.style.display = settingsDropdown.style.display === 'block' ? 'none' : 'block';
+});
+
+// Close the dropdown if the user clicks outside of it
+window.addEventListener('click', (event) => {
+    if (!event.target.matches('#settingsBtn')) {
+        if (settingsDropdown.style.display === 'block') {
+            settingsDropdown.style.display = 'none';
+        }
+    }
+});
+
+// Event listener for the Test Sound button (now in the dropdown)
+testButton.addEventListener('click', playTimerSound);
 
 // Check if user is already signed in, on page load
 checkIfUserLoggedIn();

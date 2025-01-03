@@ -5,7 +5,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f0f0f0; /* Light Gray background */
+    background-color: #f0f0f0; 
     color: #333;
 }
 
@@ -28,6 +28,10 @@ h1 {
 
 .controls {
     margin-bottom: 20px;
+    display: flex; 
+    gap: 10px;      
+    align-items: center; 
+    justify-content: center; 
 }
 .controls input[type="number"] {
     padding: 8px;
@@ -37,7 +41,7 @@ h1 {
     width: 100px;
 }
 .controls input[type="number"]:focus{
-    border-color: #4caf50; /* A light green when focussed on */
+    border-color: #4caf50; 
 }
 .controls button {
     padding: 10px 20px;
@@ -57,6 +61,53 @@ h1 {
     background-color: #989898;
     cursor: not-allowed;
 }
+
+/* Styles for the settings button and dropdown */
+.settings {
+    position: relative; 
+}
+
+#settingsBtn {
+    background: none;
+    border: none;
+    font-size: 1.2em; 
+    cursor: pointer;
+    color: #777; 
+}
+
+#settingsBtn:hover {
+    color: #333;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    top: 100%; 
+    border-radius: 4px;
+    padding: 10px 0;
+}
+
+.dropdown-content button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content button:hover {
+    background-color: #ddd;
+}
+
 .session-history {
     text-align: left;
 }
@@ -84,7 +135,7 @@ h1 {
 }
 
 .auth-form {
-    display: flex; /* Change from none to flex */
+    display: flex; 
     flex-direction: column;
     width: 300px;
     margin: 0 auto;
